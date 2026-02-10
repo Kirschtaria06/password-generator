@@ -37,7 +37,7 @@ h2 {
 }
 
 #generate-pass {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Karla', 'System', sans-serif;
     color: white;
     padding: 8px 16px;
     background-color: #10B981;
