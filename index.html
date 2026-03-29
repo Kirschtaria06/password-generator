@@ -14,6 +14,31 @@
         <div class="content-box">
             <h2>Generate a <br><span>random password</span></h2>
             <p class="subtext">Never use an insecure password again.</p>
+            <div id="checkbox-label">
+                <label for="checkbox">Select preferred password parameters:</label>
+            </div>
+            <form id="checkbox">
+                <div class="groupCheckBox">
+                    <div>
+                        <input type="checkbox" id="lowercase" name="include" value="lowercase">
+                        <label for="lowercase">Lowercase</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="uppercase" name="include" value="uppercase">
+                        <label for="lowercase">Uppercase</label>
+                    </div>
+                </div>
+                <div class="groupCheckBox">
+                    <div>
+                        <input type="checkbox" id="symbols" name="include" value="symbols">
+                        <label for="lowercase">Symbols</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="numbers" name="include" value="numbers">
+                        <label for="lowercase">Numbers</label>
+                    </div>
+                </div>
+            </form>
             <button id="generate-pass" onclick="generatePassword()">Generate passwords</button>
             <div class="generated-box">
                 <p id="pass-1"></p>

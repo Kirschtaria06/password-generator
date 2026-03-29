@@ -33,7 +33,7 @@ h2 {
 .subtext {
     font-family: 'Karla', sans-serif;
     color: #D5D4D8;
-    margin-bottom: 51px;
+    /* margin-bottom: 51px; */
 }
 
 #generate-pass {
@@ -43,7 +43,8 @@ h2 {
     background-color: #10B981;
     border: none;
     border-radius: 6px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .generated-box {
@@ -62,6 +63,35 @@ h2 {
     padding-top: 5px;
     color: #55F991;
     border-radius: 6px;
+}
+
+#checkbox-label {
+    margin-top: 20px;
+    color: #D5D4D8;
+}
+
+#checkbox {
+    display: flex;
+    flex-direction: row;
+    color: #D5D4D8;
+    gap: 10px;
+}
+
+#checkbox > label {
+    /* margin-left: 0; */
+    margin-bottom: 5px;
+}
+
+.groupCheckBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.groupCheckBox > div {
+    width: 100px;
+}
+.groupCheckBox > div > label {
+    margin-left: 5px;
 }
 
 .content-box {
